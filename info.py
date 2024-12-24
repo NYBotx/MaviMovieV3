@@ -15,9 +15,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'MaviMon')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '13963336'))
+API_HASH = environ.get('API_HASH', 'a144d1e22ef0b29738e8c00713d02678')
+BOT_TOKEN = environ.get('BOT_TOKEN', "8154487335:AAGQFJcKAlbHwylgPHujmjzBv6efv9q0JAA")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
